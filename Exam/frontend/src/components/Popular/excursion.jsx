@@ -1,17 +1,13 @@
-import Rectangle13 from "../../assets/images/Rectangle13.png"
-import Rectangle14 from "../../assets/images/Rectangle14.png"
-import Rectangle15 from "../../assets/images/Rectangle15.png"
-import Rectangle16 from "../../assets/images/Rectangle16.png"
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import Rectangle13 from "../../assets/images/Rectangle 13.png"
+import Rectangle14 from "../../assets/images/Rectangle 14.png"
+import Rectangle15 from "../../assets/images/Rectangle 15.png"
+import Rectangle16 from "../../assets/images/Rectangle 16.png"
 import "./style.scss"
-
-
-import Time from "../../assets/icons/time.png";
-import Money from "../../assets/icons/money.png";
+import Time from "../../assets/images/time.png";
+import Money from "../../assets/images/money.png";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
-
 import 'swiper/scss';
 import 'swiper/scss/pagination';
 // import "swiper/scss/autoplay";

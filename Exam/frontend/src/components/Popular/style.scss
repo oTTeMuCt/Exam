@@ -1,4 +1,4 @@
-@import "../../assets/styles/settings";
+@import "../../assets/style/settings";
 $Rectangle13: url('../../assets/images/Rectangle 13.png');
 $Rectangle14: url('../../assets/images/Rectangle 14.png');
 $Rectangle15: url('../../assets/images/Rectangle 15.png');
@@ -84,40 +84,40 @@ $Rectangle16: url('../../assets/images/Rectangle 16.png');
         }
     }
 
-    @media (max-width: $large) {
-        margin-top: 180px;
+  // @media (max-width: $large) {
+   //     margin-top: 180px;
 
-        .top {
-            span:first-child {
-                font-size: 20px;
-            }
+   //     .top {
+   //         span:first-child {
+   //             font-size: 20px;
+   //         }
 
-            span:last-child {
-                font-size: 15px;
-            }
-        }
+   //         span:last-child {
+   //             font-size: 15px;
+   //         }
+   //     }
 
-        .values-wrapper {
-            .swiper {
-                .swiper-slide {
-                    width: 295px;
-                    margin-left: 5px;
-                    margin-right: 40px;
+   //     .values-wrapper {
+   //         .swiper {
+   //             .swiper-slide {
+   //                 width: 295px;
+   //                 margin-left: 5px;
+  //                  margin-right: 40px;
 
-                    .value-item {
-                        .value-info {
-                            width: 295px;
-                            padding: 200px 30px 0 20px;
+  //                  .value-item {
+   //                     .value-info {
+   //                         width: 295px;
+   //                         padding: 200px 30px 0 20px;
 
-                            button {
-                                right: 120px;
-                            }
-                        }
-                    }
-                }
+ //                           button {
+ //                               right: 120px;
+ //                           }
+//                        }
+//                    }
+//                }
+//
+ //           }
+//        }
+//    }
 
-            }
-        }
-    }
-
-}
+} 

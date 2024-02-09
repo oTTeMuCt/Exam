@@ -1,5 +1,4 @@
 import "./style.scss"
-import Marquee from "react-fast-marquee";
 import Values from "./excursion.jsx"
 function PopularExcursions(props) {
     return (
