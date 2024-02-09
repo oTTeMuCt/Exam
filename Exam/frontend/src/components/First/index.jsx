@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import About from '../About';
 import Galereya from '../Galereya';
 import Popular from "../Popular"
+import Reviews from '../Reviews';
 
 function First() {
     return (
@@ -24,15 +25,14 @@ function First() {
                     <img src={play2} alt="play2" />
                 </div>
             </div>
-
          <br />
-         <br />
-            <br />
             <Popular />
             <br />
             <About />
             <br />
             <Galereya />
+            <br />
+            <Reviews />
         </div>
     );
 }

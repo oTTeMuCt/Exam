@@ -10,7 +10,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
 import 'swiper/scss';
 import 'swiper/scss/pagination';
-// import "swiper/scss/autoplay";
 
 function Values(props) {
     return (
@@ -161,7 +160,8 @@ function Values(props) {
                         <div className='value-info' style={{
                             backgroundImage: `url(${Rectangle16})`,
                             height: "497px",
-                            borderRadius: "10px"
+                            borderRadius: "10px",
+                            width:"360px"
                         }}>
                             <h5>Автобусный тур</h5>
                             <h3>Женский монастырь</h3>

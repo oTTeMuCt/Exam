@@ -23,13 +23,21 @@ $light: #ffffff;
     &:active{
         transform: scale(0.8);
     }
+}
     %blue-btn {
-        @extend %btn;
         padding: 10px 35px;
-        background-color: aqua;
+        background-color: cyan;
         color: snow;
         border-radius: 20px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        &:hover{
+            transform: scale(0.9);
+        }
+        &:active{
+            transform: scale(0.8);
+        }
     
     }
 
-}

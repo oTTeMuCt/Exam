@@ -6,10 +6,11 @@ $Rectangle16: url('../../assets/images/Rectangle 16.png');
 
 .p-excursions-wrapper {
     margin: 10px;
-    margin-top: 300px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 
     .top {
-        margin: 0 100px;
+        margin: 0 50px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -59,6 +60,7 @@ $Rectangle16: url('../../assets/images/Rectangle 16.png');
                             display: inline;
                             justify-content: center;
                             align-items: center;
+                            size: 14px;
                         }
 
                         p {
@@ -72,10 +74,6 @@ $Rectangle16: url('../../assets/images/Rectangle 16.png');
 
                         button {
                             @extend %blue-btn;
-                            position: absolute;
-                            bottom: 40px;
-                            right: 130px;
-                            justify-content: center;
                         }
                     }
                 }
