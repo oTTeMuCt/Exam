@@ -4,37 +4,37 @@ import play2 from "../../assets/images/play2.png";
 import { Link } from 'react-router-dom';
 import About from '../About';
 import Galereya from '../Galereya';
-
-
-
+import Popular from "../Popular"
 
 function First() {
-    return ( 
+    return (
         <div className="first-page">
             <div className="second-page">
-                 <div className="name-page">
-                <h1 className='h1'>Путешествуй</h1>
-                <h3>вместе с</h3>
-                <h1 className="pero">PERO TRAVEL</h1>
-                <Link to={"/excursions"}>
-                <button className="excursion">К экскурсиям ➡</button>
-                </Link>
-                
-            </div>
-    <div className="images">
-                <img src={play1} alt="play1" />
-                <img src={play2} alt="play2" />
-            </div>
+                <div className="name-page">
+                    <h1 className='h1'>Путешествуй</h1>
+                    <h3>вместе с</h3>
+                    <h1 className="pero">PERO TRAVEL</h1>
+                    <Link to={"/excursions"}>
+                        <button className="excursion">К экскурсиям ➡</button>
+                    </Link>
+
+                </div>
+                <div className="images">
+                    <img src={play1} alt="play1" />
+                    <img src={play2} alt="play2" />
+                </div>
             </div>
 
-         <NewExcurc/>
-         
          <br />
-            <About/>
+         <br />
             <br />
-            <Galereya/>
-            </div>
-     );
+            <Popular />
+            <br />
+            <About />
+            <br />
+            <Galereya />
+        </div>
+    );
 }
 
 export default First;
