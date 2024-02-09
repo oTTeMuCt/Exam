@@ -3,7 +3,7 @@ import Navigation from "./Navigation"
 import About from "./About"
 import Excursion from "./Excursion"
 import Kabinet from "./Kabinet"
-import First from "./First"
+import Main from "./Main"
 import NoPage from "./NoPage"
 
 
@@ -13,7 +13,7 @@ function AllComponents(props) {
     return (
         <Routes location={location} key={location.pathname}>
             <Route path="/" element={<Navigation />} >
-                <Route index element={<First />} />
+                <Route index element={<Main />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/excursions" element={<Excursion/>} />
                 <Route path="/kabinet" element={<Kabinet/>} />

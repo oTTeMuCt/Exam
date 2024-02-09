@@ -1,6 +1,7 @@
 import './style.scss'
 import img1 from "../../assets/images/img1.png"
 import { Link, Outlet } from "react-router-dom"
+import Footer from '../Footer';
 
 
 
@@ -24,8 +25,10 @@ function Navigation() {
                 <Link to="/kabinet">Личный кабинет</Link>
             </div>
         </nav>
-
-       
+   <div>
+     <Footer/>
+   </div>
+        
     </div>
       );
 }

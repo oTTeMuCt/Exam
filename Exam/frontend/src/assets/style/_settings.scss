@@ -12,7 +12,7 @@ $light: #ffffff;
 
 %green-btn {
     color: $light;
-    background: linear-gradient(119deg, rgb(95, 222, 36) 50%, rgb(52, 245, 13) 85%);
+    background: linear-gradient(119deg, rgb(7, 131, 207) 50%, rgb(13, 156, 245) 85%);
     height: 40px;
     width: 190px;
     border: none;
@@ -23,21 +23,5 @@ $light: #ffffff;
     &:active{
         transform: scale(0.8);
     }
-}
-    %blue-btn {
-        padding: 10px 35px;
-        background-color: cyan;
-        color: snow;
-        border-radius: 20px;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        &:hover{
-            transform: scale(0.9);
-        }
-        &:active{
-            transform: scale(0.8);
-        }
-    
-    }
 
+}
