@@ -1,6 +1,5 @@
 import Image from "../../assets/images/Rectangle 40.png"
-import Line from "../../assets/images/Line.png"
-import { FaRegHeart } from "react-icons/fa"
+import Like from "../../assets/images/Like.png"
 import { Link } from "react-router-dom";
 import { GiTwoCoins } from "react-icons/gi";
 import { GoClockFill } from "react-icons/go";
@@ -24,11 +23,10 @@ function ContentItem(props) {
                 <span>Детский билет</span>
 
                 <br />
-                <img src={Line} alt="line" id="p" />
                 <p>{props.subtitle}</p>
                 <Link><button className="blue-btn">Подробнее</button></Link>
                 <span className="like">
-                    <FaRegHeart width={100} height={100} />
+                    <img src={Like} alt="like" height={20} width={20} />
                 </span>
             </div>
         </div>

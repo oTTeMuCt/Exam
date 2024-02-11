@@ -1,0 +1,53 @@
+@import "../../assets/style/settings";
+$cabinet-jpg: url('../../assets/images/Cabinet.jpg');
+
+.cabinet-wrapper {
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: $cabinet-jpg;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    padding: 10px 210px;
+    background-color: black;
+    opacity: 20;
+
+    h1 {
+        padding-top: 200px;
+        font-size: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: $yellow-b;
+    }
+    h3 {
+        padding: 10px 5px;
+        font-size: 50px;
+        color: snow;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    button {
+        @extend %green-btn;
+        padding: 10px 5px;
+    }
+    .reg-form {
+        form {
+            justify-content: center;
+            align-items: center;
+            margin-left: 190px;
+            
+        }
+        input {
+            width: 200px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: transparent;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            border: 2px solid cyan;
+            color: snow;
+
+        }
+    }
+}
