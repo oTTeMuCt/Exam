@@ -20,9 +20,9 @@ function Navigation() {
                 </h1>
             </div>
             <div className="nav-right">
-                <Link to="/">Главная</Link>
+                <Link to="/main">Главная</Link>
                 <Link to="/excursions">Экскурсии</Link>
-                <Link to="/kabinet">Личный кабинет</Link>
+                <Link to="/cabinet">Личный кабинет</Link>
             </div>
         </nav>
    <div>

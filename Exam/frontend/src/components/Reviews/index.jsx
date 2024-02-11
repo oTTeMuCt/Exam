@@ -17,7 +17,7 @@ function Reviews() {
             </div>
             <Swiper
                 slidesPerView={2}
-                spaceBetween={20}
+                spaceBetween={30}
                 pagination={{
                     clickable: true,
                 }}

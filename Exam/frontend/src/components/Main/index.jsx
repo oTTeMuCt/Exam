@@ -32,6 +32,7 @@ function First() {
            <br />
             <br />
             <About/> 
+            <br />
             <Galery/>
             <br />
             <br />

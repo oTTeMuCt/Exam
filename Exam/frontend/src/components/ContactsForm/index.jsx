@@ -27,7 +27,7 @@ function ContactsForm() {
     function sendEMailJS_Fn(e) {
         e.preventDefault()                                                   
         emailjs.send('service_vwwisct', 'template_4y8q0hg', templateParams, 'fhAhoxhYJiozWywEa')
-        .then((response) =>{ toast.success('SUCCESS!',{ theme: "dark" });},(err) => {toast.error('FAILED...', { theme: "dark" }); 
+        .then((response) =>{ toast.success('SUCCESS!',{ theme: "light" });},(err) => {toast.error('FAILED...', { theme: "dark" }); 
         });
     }
     return (

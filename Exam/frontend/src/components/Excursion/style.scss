@@ -1,0 +1,26 @@
+@import "../../assets/style/settings";
+$daa-png: url('../../assets/images/daa.png');
+
+.exc-wrapper {
+    position: relative;
+
+    .inner {
+        align-items: center;
+        gap: 10px;
+        line-height: 50px;
+        width: 100%;
+        height: 100vh;
+        background: $daa-png ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+        padding: 10px 210px;
+
+        h1 {
+            font-size: 100px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: $light;
+        }
+    }
+}

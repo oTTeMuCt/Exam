@@ -11,15 +11,21 @@
     background-color: transparent;
     top: 0;
     h1{
-        margin-right: 900px;
+        margin-left: 100px;
     }
     a{
         color: white;
         text-decoration: none;
         display: inline-block;
-        padding: 5px 5px;
+        margin-right: 10px;
 
         &:hover{
             color: orange;
         }
-    }}
+    }
+    .nav-right {
+        padding-left:  800px;
+    }
+
+
+}
