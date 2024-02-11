@@ -1,7 +1,8 @@
 import "./style.scss";
-import Map from "../../assets/images/map.png";
-import Сalendar from "../../assets/images/cal.png";
-import People from "../../assets/images/picon.png";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaCalendarAlt } from "react-icons/fa";
+import { FaUserFriends } from "react-icons/fa"
+import Tour from "../Tours";
 function Excursions(e) {
 
     return (
@@ -16,9 +17,9 @@ function Excursions(e) {
                             <span className="active">АВТОБУСНЫЙ ТУР </span> <span> ДЖИППИНГ </span> <span> ЯХТИНГ </span> <span> КАНЬОНИНГ</span>
                         </div>
                         <div className="value">
-                            <span><h4>Абхазия</h4><img src={Map} alt="map-icon" /></span>
-                            <span><h4>10 ноября 2021</h4><img src={Сalendar} alt="calendar-icon" /></span>
-                            <span><h4>5 человек  </h4><img src={People} alt="people-icon" /></span>
+                            <span><h4>Абхазия</h4><FaMapMarkerAlt /></span>
+                            <span><h4>10 ноября 2021</h4><FaCalendarAlt /></span>
+                            <span><h4>5 человек  </h4><FaUserFriends /></span>
                             <button className="blue-btn">Показать</button>
                         </div>
                     </div>
@@ -99,9 +100,8 @@ function Excursions(e) {
                         </div>
                         <button className="blue-btn">Показать</button>
                         <div className="reset"><h1>×</h1> Сбросить фильтры</div>
-
-
                     </div>
+                    <Tour />
                 </div>
             </div>
         </div>

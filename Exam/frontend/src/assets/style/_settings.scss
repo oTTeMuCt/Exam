@@ -5,6 +5,8 @@ $dark: #141414;
 $dark-lighter: #202020;
 $success: #00cc00;
 $light: #ffffff;
+$yellow-b:#FFC700;
+
 
 %link {
     @extend %link-style;
@@ -17,6 +19,7 @@ $light: #ffffff;
     width: 190px;
     border: none;
     border-radius: 30px;
+    cursor: pointer;
     &:hover{
         transform: scale(0.9);
     }
