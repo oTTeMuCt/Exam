@@ -22,6 +22,7 @@ function Kabinet() {
                         <form>
                             <input name="email" type="text" placeholder="Введите свой email.." />
                             <input name="password" type="password" placeholder="Введите свой пароль.." />
+                            <input name="password" type="password" placeholder="Повторно введите свой пароль.." />
                             <button>Региcтрация</button>
                         </form>
                     </div>
