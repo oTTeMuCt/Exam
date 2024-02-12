@@ -30,3 +30,32 @@ $rec-png: url('../../assets/images/Rec.png');
         }
     }
 }
+.main-div {
+    padding-top: 100px;
+    .grid-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 50px;
+        justify-content: center;
+        position: relative;
+        &:first-child {
+            padding-left: 100px;
+        }
+        h2 {
+            color:#0499DD;
+            padding-bottom: 10px;
+        }
+        h4 {
+            color:#0499DD;
+            padding-bottom: 10px;
+        }
+        .price {
+            background-color: snow;
+            opacity: 30;
+            div {
+                z-index: 999;
+                background-color: transparent;
+            }
+        }
+    }
+}

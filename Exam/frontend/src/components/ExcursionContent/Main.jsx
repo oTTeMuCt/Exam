@@ -1,5 +1,6 @@
 import "./style.scss"
 import { Link } from "react-router-dom"
+import Details from "./index.jsx";
 
 
 function Content() {
@@ -14,7 +15,7 @@ function Content() {
                     </Link>
                 </div>
             </div>
-
+        <Details />
         </div>
 
     );
