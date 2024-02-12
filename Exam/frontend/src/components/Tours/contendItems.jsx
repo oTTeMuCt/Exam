@@ -24,7 +24,9 @@ function ContentItem(props) {
 
                 <br />
                 <p>{props.subtitle}</p>
-                <Link><button className="blue-btn">Подробнее</button></Link>
+                <Link to={'/excursionContent'}>
+                <button className="blue-btn">Подробнее</button>
+                </Link>
                 <span className="like">
                     <img src={Like} alt="like" height={20} width={20} />
                 </span>

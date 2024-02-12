@@ -1,10 +1,10 @@
 import { useLocation, Route, Routes } from 'react-router-dom'
 import Navigation from "./Navigation"
-import About from "./About"
 import Excursion from "./Excursion"
 import Cabinet from "./Cabinet"
 import Main from "./Main"
 import NoPage from "./NoPage"
+import ExcursionContent from './ExcursionContent/Main.jsx'
 
 
 function AllComponents(props) {
@@ -18,6 +18,8 @@ function AllComponents(props) {
                 <Route path="/excursions" element={<Excursion/>} />
                 <Route path="/cabinet" element={<Cabinet/>} />
                 <Route path="*" element={<NoPage />} />
+                <Route path="/excursionContent" element={<ExcursionContent/>} />
+
             </Route>
         </Routes>
     );
