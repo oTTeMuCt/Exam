@@ -1,6 +1,7 @@
 import "./style.scss"
 import { Link } from "react-router-dom"
 
+
 function Content() {
     return (
         <div className="main-wrapper">
@@ -8,10 +9,12 @@ function Content() {
                 <div className="content">
                     <h3>Автобусный тур</h3>
                     <h1>ЗОЛОТОЕ КОЛЬЦО АБХАЗИИ (ИЗ АДЛЕРА)</h1>
+                    <Link to={'/excursions'}>
                     <button>К другим эксруксиям</button>
+                    </Link>
                 </div>
             </div>
-            
+
         </div>
 
     );
